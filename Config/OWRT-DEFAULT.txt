@@ -28,7 +28,7 @@
 # 后台管理地址（Web 登录 IPv4 地址）
 # 格式：合法 IPv4，如 192.168.1.1 / 10.0.0.1
 # 该地址同时作为设备 LAN 口 IP 与 DHCP 网段起点
-WRT_IP=192.168.10.1
+WRT_IP=192.168.88.1
 
 # 后台登录密码提示文本（仅用于 Release 发布说明展示，不影响固件实际密码）
 # 固件默认 root 无密码，ImmortalWrt 首次登录时由 LuCI 引导设置
@@ -39,11 +39,11 @@ WRT_PW=无
 # ============================== 系统标识 ==============================
 # 系统主机名（LuCI 状态页 / SSH 提示符中显示的名称）
 # 格式：仅限字母、数字、下划线、连字符
-WRT_NAME=OWRT
+WRT_NAME=H5000M
 
 # 默认 Web 主题（需已在编译配置中启用对应的 luci-theme-* 与 luci-app-*-config）
 # 可选项：aurora（默认）/ argon / material / bootstrap 等
-WRT_THEME=aurora
+WRT_THEME=argon
 
 
 # ============================== Wi-Fi 无线 ==============================
@@ -72,11 +72,11 @@ WRT_THEME=aurora
 
 # Wi-Fi 默认名称（SSID），2.4G 与 5G 统一使用
 # 长度 1~32 字符，建议使用字母与数字，避免中文与特殊符号
-WRT_SSID=OWRT
+WRT_SSID=Yek
 
 # Wi-Fi 默认密钥（密码）
 # 长度至少 8 字符（WPA2 / WPA3 均要求）
-WRT_WORD=12345678
+WRT_WORD=Yek930125
 
 # Wi-Fi 加密策略（决定认证方式与终端兼容性）
 # 可选项：
@@ -102,10 +102,10 @@ WIFI_5G_WIDTH=160
 # 各项未填写时自动回退到上方对应的 WiFi6 默认值。
 
 # Wi-Fi 默认名称（SSID），2.4G 与 5G 统一使用
-WRT_SSID_WIFI7=OWRT
+WRT_SSID_WIFI7=Yek
 
 # Wi-Fi 默认密钥（密码）
-WRT_WORD_WIFI7=12345678
+WRT_WORD_WIFI7=Yek930125
 
 # Wi-Fi 加密策略（决定认证方式与终端兼容性），可选值同 WiFi6 的 WIFI_ENCRYPTION
 WIFI_ENCRYPTION_WIFI7=psk-mixed
