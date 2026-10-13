@@ -72,7 +72,7 @@ WRT_THEME=argon
 
 # Wi-Fi 默认名称（SSID），2.4G 与 5G 统一使用
 # 长度 1~32 字符，建议使用字母与数字，避免中文与特殊符号
-WRT_SSID=Yek
+WRT_SSID=Yek-2.4G
 
 # Wi-Fi 默认密钥（密码）
 # 长度至少 8 字符（WPA2 / WPA3 均要求）
@@ -102,7 +102,7 @@ WIFI_5G_WIDTH=160
 # 各项未填写时自动回退到上方对应的 WiFi6 默认值。
 
 # Wi-Fi 默认名称（SSID），2.4G 与 5G 统一使用
-WRT_SSID_WIFI7=Yek
+WRT_SSID_WIFI7=Yek-5G
 
 # Wi-Fi 默认密钥（密码）
 WRT_WORD_WIFI7=Yek930125
